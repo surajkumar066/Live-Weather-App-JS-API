@@ -23,15 +23,15 @@ const apikey = "ca0196bbae1483526e92b03198d53e0a";
         data.main.humidity + "%";
       document.querySelector(".wind").innerHTML = Math.round(data.wind.speed * 3.6) + " km/h";;
 
-      if (data.weather[0].main == "Clouds") {
+      if (data.weather[0].main == "clouds") {
         weatherIcon.src = "clouds.png";
-      } else if (data.weather[0].main == "Clear") {
+      } else if (data.weather[0].main == "clear") {
         weatherIcon.src = "clear.png";
-      } else if (data.weather[0].main == "Rain") {
+      } else if (data.weather[0].main == "rain") {
         weatherIcon.src = "rain.png";
-      } else if (data.weather[0].main == "Drizzle") {
+      } else if (data.weather[0].main == "drizzle") {
         weatherIcon.src = "drizzle.png";
-      } else if (data.weather[0].main == "Mist") {
+      } else if (data.weather[0].main == "mist") {
         weatherIcon.src = "mist.png";
       }
 
