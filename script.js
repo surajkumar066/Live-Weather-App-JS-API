@@ -27,11 +27,11 @@ const apikey = "ca0196bbae1483526e92b03198d53e0a";
         weatherIcon.src = "clouds.png";
       } else if (data.weather[0].main == "clear") {
         weatherIcon.src = "clear.png";
-      } else if (data.weather[0].main == "rain") {
+      } else if (data.weather[0].main == "Rain") {
         weatherIcon.src = "rain.png";
-      } else if (data.weather[0].main == "drizzle") {
+      } else if (data.weather[0].main == "Rrizzle") {
         weatherIcon.src = "drizzle.png";
-      } else if (data.weather[0].main == "mist") {
+      } else if (data.weather[0].main == "Mist") {
         weatherIcon.src = "mist.png";
       }
 
